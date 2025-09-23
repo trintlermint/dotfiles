@@ -1,0 +1,39 @@
+
+[language-server.gpt]
+command = "helix-gpt"
+
+# C
+[[language]]
+name = "c"
+language-servers = ["clangd", "gpt"]
+
+# C++
+[[language]]
+name = "cpp"
+language-servers = ["clangd", "gpt"]
+
+# OCaml
+[[language]]
+name = "ocaml"
+language-servers = ["ocamllsp", "gpt"]
+
+#Haskell
+[[language]]
+name = "haskell"
+language-servers = ["haskell-language-server-wrapper", "gpt"]
+auto-format = true
+
+# Python
+[[language]]
+name = "python"
+language-servers = ["pylsp", "gpt"]
+
+# Rust
+[[language]]
+name = "rust"
+language-servers = ["rust-analyzer", "gpt"]
+
+# Typst
+[[language]]
+name = "typst"
+language-servers = ["tinymist", "gpt"]
