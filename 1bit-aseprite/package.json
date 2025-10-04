@@ -1,0 +1,24 @@
+{
+  "name": "1BIT Aseprite",
+  "displayName": "1-BIT Aseprite",
+  "description": "A free 1-bit re-skin of Aseprite",
+  "version": "2.52",
+  "author": { "name": "Qirlfriend", "email": "qirlfren@gmail.com", "url": "https://bsky.app/profile/qirlfriend.bsky.social" },
+  "contributors": [
+    { 
+      "name": "NotJam", "url": "https://twitter.com/NotJamGames",
+      "name": "Slime", "url": "https://twitter.com/SSlime7",
+      "name": "Polyducks", "url": "https://twitter.com/Polyducks" 
+    }
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      { "id": "1-BIT Aseprite Warm", "path": "./warm", "variant": "4am" },
+      { "id": "1-BIT Aseprite Cool", "path": "./cool", "variant": "Monitor Glow" },
+      { "id": "1-BIT Aseprite Playdate", "path": "./playdate", "variant": "Playdate" }
+    ]
+  }
+}

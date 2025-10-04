@@ -74,9 +74,7 @@ function work() {
   fi
 }
 
-# -------------------------------
-# Completions
-# -------------------------------
+# -- completions
 
 # bun completions
 [ -s "/home/trintler/.bun/_bun" ] && source "/home/trintler/.bun/_bun"
